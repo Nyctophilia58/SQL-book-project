@@ -18,7 +18,7 @@ class Book(Base):
     price = Column('Price', Integer)
 
     def __repr__(self):
-        return "<Book(title='%s', author='%s', published='%s', pages='%s')>" % (
+        return "<Book(Title='%s', Author='%s', Published='%s', Price='%s')>" % (
             self.title, self.author, self.published_date, self.price)
 
 
